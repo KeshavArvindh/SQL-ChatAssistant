@@ -66,8 +66,8 @@ python app.py
 ```
 3. The assistant will return a response in JSON format.
 
-### Example Queries and Responses
-# 1. Show Employees in a Department
+# Example Queries and Responses
+### 1. Show Employees in a Department
 Query:
 ```json
 
@@ -86,31 +86,31 @@ Response:
 }
 ```
 # Known Limitations
-### Limited Query Support:
+#### Limited Query Support:
 The assistant currently supports only a few types of queries. Adding more query types would improve its functionality.
 
-### Natural Language Processing (NLP):
+#### Natural Language Processing (NLP):
 The assistant uses simple string matching to process queries. Integrating an NLP library (e.g., spaCy or NLTK) could make it more robust and flexible.
 
-### Error Handling:
+#### Error Handling:
 While the assistant handles common errors, some edge cases (e.g., complex invalid queries) may not be handled gracefully.
 
-### Scalability:
+#### Scalability:
 The current implementation is designed for small datasets. For larger datasets, performance optimizations (e.g., indexing) would be necessary.
 
 # Suggestions for Improvement
-### 1. Add More Query Types:
+#### 1. Add More Query Types:
 Support additional queries like:
 `"What is the average salary in the [department] department?"`
 `"How many employees are there in the [department] department?"`
 
-### 2. Improve Query Parsing:
-Use regular expressions or an NLP library to handle more complex queries.
+#### 2. Improve Query Parsing:
+Use# regular expressions or an NLP library to handle more complex queries.
 
-### 3. Enhance Error Handling:
+#### 3. Enhance Error Handling:
 Add more detailed error messages and logging for debugging.
 
-### 4. Deploy to the Cloud:
+#### 4. Deploy to the Cloud:
 Deploy the app to a cloud platform like Heroku, AWS, or Google Cloud for public access.
 
 ### 5.Add a Web Interface:
