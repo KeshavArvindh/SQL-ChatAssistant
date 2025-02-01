@@ -30,7 +30,7 @@ The chat assistant works as follows:
 
 ---
 
-## Steps to Run the Project Locally
+# Steps to Run the Project Locally
 
 ### Prerequisites
 - Python 3.x
