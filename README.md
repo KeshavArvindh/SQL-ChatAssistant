@@ -4,7 +4,7 @@ This project is a Python-based chat assistant that interacts with an SQLite data
 
 ---
 
-## How the Assistant Works
+# How the Assistant Works
 
 The chat assistant works as follows:
 
